@@ -1,0 +1,51 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+c",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u0003"
+        },
+        "when": "terminalFocus && !terminalTextSelected"
+    },
+    {
+        "key": "cmd+a",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u0001"
+        },
+        "when": "terminalFocus && !terminalTextSelected"
+    },
+    {
+        "key": "cmd+w",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u0017"
+        },
+        "when": "terminalFocus && !terminalTextSelected"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u0005"
+        },
+        "when": "terminalFocus && !terminalTextSelected"
+    },
+    {
+        "key": "cmd+n",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u000E"
+        },
+        "when": "terminalFocus && !terminalTextSelected"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u000B"
+        },
+        "when": "terminalFocus && !terminalTextSelected"
+    }
+]
